@@ -1165,6 +1165,9 @@
     <Compile Include="Main\NewCallLog.aspx.designer.cs">
       <DependentUpon>NewCallLog.aspx</DependentUpon>
     </Compile>
+    <Compile Include="MasterPageChange.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Reports\CallLogRecords.aspx.cs">
       <DependentUpon>CallLogRecords.aspx</DependentUpon>

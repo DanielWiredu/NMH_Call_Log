@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace NMH_Call_Log.Errors
 {
-    public partial class UnauthorizedAccess : System.Web.UI.Page
+    public partial class UnauthorizedAccess : MasterPageChange
     {
         protected void Page_Load(object sender, EventArgs e)
         {

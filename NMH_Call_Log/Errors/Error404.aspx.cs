@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace NMH_Call_Log.Errors
 {
-    public partial class Error404 : System.Web.UI.Page
+    public partial class Error404 : MasterPageChange
     {
         protected void Page_Load(object sender, EventArgs e)
         {
