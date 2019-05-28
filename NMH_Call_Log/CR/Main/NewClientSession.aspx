@@ -65,6 +65,7 @@
                                 <div class="col-md-6">
                                     <label>Participants</label>
                                     <asp:TextBox runat="server" ID="txtParticipants" Width="100%" TextMode="Number"></asp:TextBox>
+                                    <asp:RequiredFieldValidator runat="server" ErrorMessage="Required Field" ControlToValidate="txtParticipants" Display="Dynamic" ForeColor="Red" SetFocusOnError="true"></asp:RequiredFieldValidator>
                                 </div>
                             </div>
                         </div>

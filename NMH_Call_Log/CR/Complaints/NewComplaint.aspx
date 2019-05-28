@@ -194,7 +194,7 @@
                             <asp:Button runat="server" ID="btnReturn" CssClass="btn btn-warning" Text="Return" PostBackUrl="~/CR/Complaints/Complaints.aspx" CausesValidation="false" />
                             <asp:Button runat="server" ID="btnAddNew" CssClass="btn btn-primary" Text="Add New" OnClick="btnAddNew_Click" CausesValidation="false" />
                             <asp:Button runat="server" ID="btnEscalate" CssClass="btn btn-info" Text="Referral" Enabled="false" OnClientClick="openEscalateModal()" CausesValidation="false" />
-                            <asp:Button runat="server" ID="btnResolve" CssClass="btn btn-danger" Text="Resolution" OnClientClick="openResolveModal()" CausesValidation="false" />
+                            <asp:Button runat="server" ID="btnResolve" CssClass="btn btn-danger" Text="Resolution" Enabled="false" OnClientClick="openResolveModal()" CausesValidation="false" />
                             <asp:Button runat="server" ID="btnSave" CssClass="btn btn-success" Text="Save" OnClick="btnSave_Click" />
                         </div>
                     </ContentTemplate>

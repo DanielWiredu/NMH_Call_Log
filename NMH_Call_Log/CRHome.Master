@@ -32,7 +32,7 @@
       <header class="main-header">
 
         <!-- Logo -->
-        <a href="/Dashboard.aspx" class="logo">
+        <a href="/CR/Dashboard.aspx" class="logo">
           <!-- mini logo for sidebar mini 50x50 pixels -->
           <span class="logo-mini"><b>N</b>MI</span>
           <!-- logo for regular state and mobile devices -->

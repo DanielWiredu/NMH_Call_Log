@@ -74,6 +74,7 @@ namespace NMH_Call_Log.CR.Complaints
                             ScriptManager.RegisterStartupScript(this, this.GetType(), "", "toastr.success('Saved Successfully','Success');", true);
                             ViewState["CallId"] = CallId;
                             btnEscalate.Enabled = true;
+                            btnResolve.Enabled = true;
                             btnSave.Enabled = false;
                         }
                     }
